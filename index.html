@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="./dist/main.js"></script>
+    <title>React Redux Thunk - Acme Note Taker</title>
+    <style>
+        .loader-logo {
+            animation: logo-spin infinite 20s linear;
+            height: 80px;
+            position: absolute;
+            left:45%;
+        }
+        @keyframes logo-spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        body {
+            font-family: verdana;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+        .selected {
+            background-color: tomato;
+            color: white;
+            padding: 0.5rem;
+            border-radius: 0.25rem;
+        }
+        input,
+        button {
+            height: 2rem;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='root'></div>
+</body>
+
+</html>
